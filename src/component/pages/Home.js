@@ -45,10 +45,9 @@ function Home() {
 
             <div>
               <p className="w-64 text-justify pt-2 dark:text-white md:text-xl lg:text-2xl xl:w-80">
-                The crisp morning air swirled around the lone hiker, painting
-                her cheeks with a rosy flush. Sunlight dappled through the
-                leaves, casting a mosaic of light and shadow on the forest
-                floor. Each step crunched on fallen leaves, the only .
+                I am a web developer living in Iraq, born in 1997, and hold a
+                bachelor’s degree in law. If you have any questions, do not
+                hesitate to message me.
               </p>
             </div>
             <div className="mt-3">
