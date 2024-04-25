@@ -72,7 +72,7 @@ function About() {
         <div className="lg:ml-[10%] xl:ml-[20%]">
           <p className="text-5xl text-orange xl:text-7xl ">About me</p>
           <hr className="w-24 mt-1 text-white" />
-          <p className="text-justify dark:text-white lg:text-xl lg:w-96 xl:text-2xl xl:w-[500px] ">
+          <p className="text-justify dark:text-white w-[250px] lg:text-xl lg:w-96 xl:text-2xl xl:w-[500px] ">
             I'm a web developer with a strong foundation in front-end
             technologies. I'm skilled in the core languages of web development:
             HTML, CSS, and JavaScript. This allows me to build the structure,
@@ -85,7 +85,7 @@ function About() {
           </p>{" "}
         </div>
         <div className="lg:hidden ">
-          <div className="w-[400px]">
+          <div className="w-[350px]">
             <div class="skill-area">
               <h2 className="text-orange text-3xl">My skills</h2>
               <div class="box">

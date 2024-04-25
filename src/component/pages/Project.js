@@ -21,7 +21,7 @@ function Project() {
         animate={{ x: "0%" }}
         transition={{ duration: 0.4, ease: "easeOut" }}
         exit={{ insetInline: 1 }}
-        className="flex justify-center w-svw flex-wrap gap-12 mt-6 mx-14 pb-5"
+        className="flex justify-center w-svw flex-wrap gap-12 mt-6  pb-5"
       >
         <div
           id="img"

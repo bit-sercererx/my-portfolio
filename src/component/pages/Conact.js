@@ -17,9 +17,9 @@ function Conact() {
         transition={{ duration: 0.4, ease: "easeOut" }}
         exit={{ opacity: 2 }}
       >
-        <div className="mb-10">
-          <h1 className="text-9xl xl:text-[170px] text-orange">let’s talk</h1>
-          <h3 className="text-4xl dark:text-white">
+        <div className="mb-10 ">
+          <h1 className="text-6xl xl:text-[170px] text-orange">let’s talk</h1>
+          <h3 className="text-2xl dark:text-white">
             Ask me any thing or just say hi...
           </h3>
           <span className="pt-10 dark:text-white ">
@@ -28,22 +28,22 @@ function Conact() {
           </span>
         </div>
         <div>
-          <form>
+          <form className="ml-9">
             <input
-              className="bg-white dark:bg-black mr-3 w-40 mb-6 xl:w-60 xl:mb-9 dark:text-white"
+              className="bg-white dark:bg-black mr-3 w-36 mb-6 xl:w-60 xl:mb-9 dark:text-white"
               type="text"
               id="input"
               placeholder="Name"
             ></input>
             <input
-              className="bg-white dark:bg-black w-40 xl:w-60 dark:text-white"
+              className="bg-white dark:bg-black w-36 xl:w-60 dark:text-white"
               id="input"
               placeholder="Email"
               type="email"
             ></input>
             <div>
               <input
-                className="bg-white dark:bg-black w-[332px] xl:w-[493px] dark:text-white "
+                className="bg-white dark:bg-black w-[300px] xl:w-[493px] dark:text-white "
                 id="input"
                 placeholder="Write your message here"
                 type="text"
@@ -51,7 +51,7 @@ function Conact() {
             </div>
           </form>
           <div>
-            <button className="bg-orange w-[332px] mt-2 p-1 rounded-md font-bold xl:mt-6 xl:w-[493px] dark:text-white dark:font-normal">
+            <button className="bg-orange ml-9 w-[300px] mt-2 p-1 rounded-md font-bold xl:mt-6 xl:w-[493px] dark:text-white dark:font-normal">
               SEND
             </button>
           </div>
