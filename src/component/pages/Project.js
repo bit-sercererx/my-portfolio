@@ -8,7 +8,7 @@ import fastfood from "../../assets/imgs/fastfood.png";
 import movie from "../../assets/imgs/movie.png";
 function Project() {
   return (
-    <div>
+    <div className="overflow-x-auto">
       <motion.div
         className="w-svw h-[1000px] absolute top-[-200px] bg-orange z-10 "
         initial={{ x: "-100%" }}

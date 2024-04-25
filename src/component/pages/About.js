@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div>
+    <div className="overflow-x-auto">
       <motion.div
         className="w-svw h-[1000px] absolute top-[-200px] bg-orange z-10 "
         initial={{ x: "-100%" }}
