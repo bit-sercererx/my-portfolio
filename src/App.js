@@ -15,7 +15,6 @@ function App() {
   const handleButtonMode = () => {
     setmoedButton(!modeButton);
   };
-  console.log(modeButton);
 
   return (
     <div className={`${modeButton && "dark"}`}>
@@ -27,7 +26,7 @@ function App() {
       <div className=" bg-white w-full h-svh dark:bg-black font-body z-30">
         <NavBar handleButtonMode={handleButtonMode} />
         <div className=" flex h-svh w-svw">
-          <div>
+          <div className="fixed top-[30%] z-40">
             <SideBar />
           </div>
           <AnimatePresence>

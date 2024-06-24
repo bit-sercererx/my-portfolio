@@ -7,6 +7,7 @@ module.exports = {
       orange: "#F0A500",
       white: "#FFFFFF",
       lightOrange: "#E6D5B8",
+      htmlcol: "#e86229",
     },
     fontFamily: { body: ["Barlow Condensed"] },
 
