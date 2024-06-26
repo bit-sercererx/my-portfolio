@@ -24,7 +24,7 @@ function About() {
         transition={{ duration: 0.4, ease: "easeOut" }}
         exit={{ opacity: 3 }}
       >
-        <div className="flex flex-col w-[90%] m-auto   justify-around h-svh mt-[15%]">
+        <div className="flex flex-col w-[90%] m-auto   justify-around h-svh md:mt-[8%] mt-[15%]">
           <div className="flex ">
             <img
               src={aboutimg}
