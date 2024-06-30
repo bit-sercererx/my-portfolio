@@ -7,6 +7,9 @@ import { IoLogoReact } from "react-icons/io5";
 import { FaFigma } from "react-icons/fa6";
 import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
+import { SiCanva } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
+import { SiSocketdotio } from "react-icons/si";
 
 function About() {
   return (
@@ -131,6 +134,42 @@ function About() {
 
                 <span class="pointer-events-none dark:text-white text-black absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
                   MONGODB{" "}
+                </span>
+              </button>
+            </section>
+            <section class="flex justify-center items-center">
+              <button
+                href="/"
+                class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-[#FFF] from-gray-800 to-black  font-semibold hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+              >
+                <SiSocketdotio className="text-4xl md:text-7xl text-black " />
+
+                <span class="pointer-events-none dark:text-white text-black absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
+                  Socket.io
+                </span>
+              </button>
+            </section>
+            <section class="flex justify-center items-center">
+              <button
+                href="/"
+                class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-[#FFF] from-gray-800 to-black  font-semibold hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+              >
+                <IoLogoFirebase className="text-4xl md:text-7xl text-[#FFA611] " />
+
+                <span class="pointer-events-none dark:text-white text-black absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
+                  Firebase{" "}
+                </span>
+              </button>
+            </section>
+            <section class="flex justify-center items-center">
+              <button
+                href="/"
+                class="group flex justify-center p-2 rounded-md drop-shadow-xl bg-[#FFF] from-gray-800 to-black  font-semibold hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+              >
+                <SiCanva className="text-4xl md:text-7xl text-black " />
+
+                <span class="pointer-events-none dark:text-white text-black absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-700 group-hover:text-sm group-hover:-translate-y-10 duration-700">
+                  Canva{" "}
                 </span>
               </button>
             </section>

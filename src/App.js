@@ -19,11 +19,17 @@ function App() {
   return (
     <div className={`${modeButton && "dark"}`}>
       {modeButton ? (
-        <style>{"body{background-color:#1B1A17}"}</style>
+        <style>{`body {
+            background-color: #1B1A17;
+             
+          }
+            
+        `}</style>
       ) : (
-        <style>{"body{background-color:#FFFFFF}"}</style>
+        <style>{`body{background-color:#FFFFFF;}
+          `}</style>
       )}
-      <div className=" bg-white w-full h-svh dark:bg-black font-body z-30">
+      <div className=" bg-white w-full h-svh dark:bg-black font-body z-30  ">
         <NavBar handleButtonMode={handleButtonMode} />
         <div className=" flex h-svh w-svw">
           <div className="fixed top-[30%] z-40">

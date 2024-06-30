@@ -1,6 +1,33 @@
 import { HiOutlineMail } from "react-icons/hi";
 import { motion } from "framer-motion";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function Conact() {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "917e34ab-92b8-49f2-98af-5577b0e2f8e3");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+      toast("Message sent successfully!");
+    }
+  };
+
   return (
     <div className="relative">
       <motion.div
@@ -28,10 +55,11 @@ function Conact() {
           </span>
         </div>
         <div>
-          <form className="ml-9">
+          <form className="ml-9" onSubmit={onSubmit}>
             <input
               className="bg-white dark:bg-black mr-3 w-36 mb-6 xl:w-60 xl:mb-9 dark:text-white"
               type="text"
+              name="name"
               id="input"
               placeholder="Name"
             ></input>
@@ -39,6 +67,7 @@ function Conact() {
               className="bg-white dark:bg-black w-36 xl:w-60 dark:text-white"
               id="input"
               placeholder="Email"
+              name="email"
               type="email"
             ></input>
             <div>
@@ -47,14 +76,28 @@ function Conact() {
                 id="input"
                 placeholder="Write your message here"
                 type="text"
+                name="message"
               ></input>
-            </div>
-          </form>
-          <div>
-            <button className="bg-orange ml-9 w-[300px] mt-2 p-1 rounded-md font-bold xl:mt-6 xl:w-[493px] dark:text-white dark:font-normal">
+            </div>{" "}
+            <button
+              type="submit"
+              className="bg-orange  w-[300px] mt-2 p-1 rounded-md font-bold xl:mt-6 xl:w-[493px] dark:text-white dark:font-normal"
+            >
               SEND
             </button>
-          </div>
+          </form>
+          <ToastContainer
+            position="top-center"
+            autoClose={4000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="dark"
+          />
         </div>
       </motion.div>
     </div>

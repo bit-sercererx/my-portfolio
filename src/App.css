@@ -253,4 +253,11 @@ body {
   font-size: 20px;
 }
 
-/* nav bar burger */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
