@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <motion.div
-        className="w-svw h-[1000px] fixed top-[-200px] bg-orange z-10 "
+        className="w-svw h-[2000px] fixed top-[-200px] bg-orange z-10 "
         initial={{ x: "-100%" }}
         animate={{ x: "120%" }}
         transition={{ duration: 0.75, ease: "easeOut" }}

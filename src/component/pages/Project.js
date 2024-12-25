@@ -24,7 +24,7 @@ function Project() {
         animate={{ x: "0%" }}
         transition={{ duration: 0.4, ease: "easeOut" }}
         exit={{ insetInline: 1 }}
-        className="flex justify-center w-svw flex-wrap gap-12 mt-[10%] ml-[2%] pb-5 "
+        className="flex justify-center w-svw flex-wrap gap-24 mt-[10%] ml-[2%] pb-5 px-10 "
       >
         <div class="relative flex w-[70%] md:w-80 flex-col rounded-xl bg-orange bg-clip-border text-gray-700 shadow-md ">
           <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-white bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
@@ -45,7 +45,7 @@ function Project() {
               <button
                 data-ripple-light="true"
                 type="button"
-                class="select-none  dark:bg-black bg-white rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-black transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                class="select-none dark:text-white text-black  dark:bg-black bg-white rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase  shadow-md shadow-black transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               >
                 Front End{" "}
               </button>
@@ -54,7 +54,7 @@ function Project() {
               <button
                 data-ripple-light="true"
                 type="button"
-                class="select-none  ml-2  dark:bg-black bg-white rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-black transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                class="select-none  ml-2 dark:text-white text-black  dark:bg-black bg-white rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase  shadow-md shadow-black transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               >
                 Back End{" "}
               </button>
@@ -82,7 +82,7 @@ function Project() {
               <button
                 data-ripple-light="true"
                 type="button"
-                class="select-none  dark:bg-black bg-white rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-black transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                class="select-none dark:text-white text-black  dark:bg-black bg-white rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase  shadow-md shadow-black transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               >
                 Front End{" "}
               </button>
@@ -91,7 +91,7 @@ function Project() {
               <button
                 data-ripple-light="true"
                 type="button"
-                class="select-none  ml-2  dark:bg-black bg-white rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-black transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                class="select-none  ml-2 dark:text-white text-black  dark:bg-black bg-white rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase  shadow-md shadow-black transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               >
                 Back End{" "}
               </button>
